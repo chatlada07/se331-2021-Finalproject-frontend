@@ -34,7 +34,8 @@
     <router-link :to="{ name: 'EventList' }">Home</router-link> |
     <router-link :to="{ name: 'About' }">About</router-link>
     <span v-if="isAdmin"> |
-    <router-link  :to="{ name: 'AddEvent' }">Add Vaccine</router-link>
+    <router-link  :to="{ name: 'AddEvent' }">Add Vaccine</router-link> |
+    <!-- <router-link :to="{ name: "AddV' }">Add Comment</router-link>  -->
     </span>
   </div>
 
